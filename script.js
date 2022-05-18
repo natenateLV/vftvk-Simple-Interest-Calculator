@@ -3,12 +3,12 @@ function compute() {
     var rate = document.getElementById("rate").value;
     var years = document.getElementById("years").value;
 
-    if (principal == "") { //Here Check is empty
-        alert("Amount can't be empty");
+    if (principal == "") {
+        alert("You must enter a positive number");
         document.getElementById("principal").focus();
         return false;
     } else {
-        if (principal <= 0) { //Here check is a positive number
+        if (principal <= 0) {
             alert("Enter a positive number");
             document.getElementById("principal").focus();
             return false;
