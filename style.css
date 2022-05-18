@@ -1,4 +1,68 @@
-body {background-color:tan;}
-h1{color:green;}
+body {
+    background-color:black;
+    font-family:arial;
+    color:white
+}
+
+h1 {
+    color:grey;
+    font-family: verdana;
+    text-align: center;
+}
+
+.maindiv {
+    background-color:white;
+    color:black;
+    width:300px;
+    padding:20px;
+    border-radius:25px;
+    margin: auto;
+}
 
 
+
+
+
+
+
+
+
+
+/*   
+EVERY THING BELOW THIS IS EXTRA CSS AND NOT PART OF THE PROJECT - I WAS JUST PLAYING AROUND TO MAKE IT LOOK NICER
+*/
+
+
+
+
+
+
+
+
+
+
+.resultsbox {
+    background-color: lightgreen;
+    padding: 10px;
+    font-family: verdana;
+    width: 95%;
+    border: 1px solid black;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin: auto;
+}
+
+.button {
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 95%;
+    text-align: center;
+    display: inline-block;
+    font-weight: bold;
+}
+
+.spacing {
+    padding: 10px;
+}
